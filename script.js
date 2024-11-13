@@ -331,7 +331,7 @@ console.log("Nombres négatifs :", négatifs);
 //   }
 // }
 
-//EXERCICE 5
+//EXERCICE 5.1
 // let nombre = prompt("entrez un nombre entre 1 et 3");
 // while(nombre < 1 || nombre > 3){
 //   nombre = prompt("saisie un nombre entre 1 et 3");
@@ -339,17 +339,110 @@ console.log("Nombres négatifs :", négatifs);
 
 //   console.log("bravo vous avez saisi " + nombre);
 
-//EXERCICE 6
- let nombre = prompt("entrez un nombre entre 1 et 3");
- while(nombre < 1 || nombre > 3){
-   nombre = prompt("saisie un nombre entre 1 et 3");
- }
+//EXERCICE 5.2
+//  let nombre = prompt("entrez un nombre entre 10 et 20");
+//  let nombreGagnant = 15;
+//  while(nombre != nombreGagnant){
+//    nombre = prompt("choisis un autre nombre");
+// if (nombre < 10){
+//   alert("choisis un nombre plus petit");
+// }
+// if (nombre > 20){
+//   alert("choisis un nombre plus grand");
+// }
+//  }
 
-   console.log("bravo vous avez saisi " + nombre);
+
+//EXERCICE 5.3
+// let nombre = prompt("entrez un nombre");
+// let chiffre = 1;
+
+// while(chiffre <= 10){
+//   console.log(+nombre + chiffre);
+//   chiffre++;
+// }
+
+//EXERCICE 5.4
+// let nombre = prompt("entrez un nombre");
+// for(let i = 1; i <= 10; i++){
+// console.log(+nombre + i);
+// }
+
+//EXERCICE 5.5
+// let nombre = prompt("entrez un nombre");
+// let resultat = "";
+// for(let i = 1; i <= 10; i++){
+//       resultat += nombre +  " x "  + i +  " = "  + (nombre * i) + "\n"; 
+//     }
+//     alert(resultat);
 
 
+//EXERCICE 5.6
+// let nombre = prompt("entrez un nombre");
+// let somme = 0;
+// for(let i = 1; i <= nombre; i++){
+//     somme += i
+//     }
+//     alert("La somme des entiers de 1 à " + nombre + " est : " + somme);
 
+//EXERCICE 5.7
+//  let nombre = prompt("entrez un nombre");
+//  let factorielle = 1;
+//   if(nombre >= 0){
+// for(let i = 1; i <= nombre; i++){
+//   factorielle = i * factorielle;
+// }
+//   }
+//   alert("La factorielle de " + nombre + " est : " + factorielle);
 
+//EXERCIE 5.8
+
+// let table=[]
+// let grand = 0;
+// for(let i = 0; i < 20; i++ ){
+//   let nombre =  prompt("entrez nombres");
+//  table.push (nombre)
+ 
+//   if(nombre > grand){
+//     grand = nombre;
+//   }
+// }
+// console.log("le nombre le plus grand est " + grand + " c'etait le numero " + (table.indexOf(grand)+1) );
+
+//EXERCICE 5.9
+// let somme = 0;
+// let nombre = prompt("Entrez un nombre (0 pour arrêter) :");
+
+// while (nombre !== "0") {  
+//   somme += Number(nombre); 
+//   nombre = prompt("Entrez un autre nombre (0 pour arrêter) :");
+// }
+
+// alert("La somme des nombres saisis est : " + somme);
+
+//EXERCICE 5.10
+
+let budget = 75;
+let table = [30,10,20];
+let somme = 0;
+function calcule (nombre){
+  if(nombre == 5){
+    console.log("vous avez 5 euros ")
+  };
+
+  if(nombre == 10){
+    console.log("vous avez 1 billet de 10")
+  }
+  if(nombre == 15){
+    console.log("vous avez 1 billet de 10 et 1 billet de 5")
+  }
+}
+for(let i = 0; i < table.length; i++){
+  somme = somme + table[i]
+}
+let reste = budget - somme;
+
+console.log(calcule(reste))
 
 
 
