@@ -233,12 +233,61 @@ console.log("Nombres négatifs :", négatifs);
 //   calculer(pointure, anneeNaissance);
 // });
 
+
 //EXERCICE 8
 
-function age(){
-  for(i = 0; i <= 18; i++)
-    if(console.log())
+// function verifierAge() {
+  
+//   var age = document.getElementById("age").value;
+            
+//   if (age >= 18) {
+//       alert("Vous êtes majeur.");
+//   } else {
+//       alert("Vous êtes mineur.");
+//   }
+// }
+
+//EXERCICE 9
+
+
+//   let nombre = ( Number (prompt("entrez un nombre")));
+//   let resultat = "";
+//   for(let i = 1; i <= 10; i++){
+//     resultat += nombre +  " x "  + i +  " = "  + (nombre * i) + "\n"; 
+//   }
+  
+// alert(resultat);
+
+//EXERCICE 10
+// let mot = prompt("Entrez un mot")
+// for (let i = 0; i < mot.length; i++) {
+//       console.log(mot[i]);
+//    }
+
+//EXERCICE 11
+
+// let nombre = prompt("Veuillez entrer un nombre entre 1 et 10 :");
+
+//     if (nombre < 5) {
+//         alert("Le nombre de personnes à 18 heures.");
+//     } else if (nombre == 5) {
+//         alert("Le nombre de personnes est égal à 5.");
+//     } else { 
+//         alert("Le nombre de personnes est supérieur à 5.");
+//     }
+
+//EXERCICE 12
+function verifierCarre(){
+
 }
+
+
+
+
+
+
+
+
 
 
 
