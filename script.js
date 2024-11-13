@@ -277,9 +277,18 @@ console.log("Nombres négatifs :", négatifs);
 //     }
 
 //EXERCICE 12
-function verifierCarre(){
 
-}
+
+// function Carre(nombre) {
+//   return nombre * nombre;  
+// }
+
+// let nombreSaisi = prompt("Veuillez entrer un nombre pour obtenir son carré :");
+
+// let resultat = Carre(nombreSaisi);
+
+// alert("Le carré de " + nombreSaisi + " est " + resultat);
+
 
 
 
