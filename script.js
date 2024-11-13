@@ -278,7 +278,6 @@ console.log("Nombres négatifs :", négatifs);
 
 //EXERCICE 12
 
-
 // function Carre(nombre) {
 //   return nombre * nombre;  
 // }
@@ -290,6 +289,63 @@ console.log("Nombres négatifs :", négatifs);
 // alert("Le carré de " + nombreSaisi + " est " + resultat);
 
 
+
+ //PARTIE 2
+
+ //EXERCICE 1
+
+//  function pyramide(hauteur){
+//   for( let i = 1; i <= hauteur; i++){
+//     let espace = "".repeat(hauteur-i);
+//     let etoiles = "*".repeat(2 * i - 1);
+//     console.log(espace + etoiles);
+//   }
+//  }
+//  pyramide(5)
+
+ //EXERCICE 2
+//  let heros = ["spiderman","captain america","wolwerine","superman"];
+//  heros.forEach(function(heros) {
+//   console.log("je suis fan de " + heros);
+//  });
+
+ //EXERCICE 3
+//  let i = 10;
+ 
+//  while(i >= 0){
+//   console.log(i);
+//   i--;
+// if(i < 0){console.log("decollage")};
+//  }
+
+//EXERCICE 4
+// let noms = ["jeremy","hassan","vincent"];
+// for(let i = 0; i < noms.length; i++){
+//   let amis = noms[i]
+//   let repetition = i + 1;
+
+//   let count = 0;
+//   while(count < repetition){
+//     count++;
+//     console.log(amis)
+//   }
+// }
+
+//EXERCICE 5
+// let nombre = prompt("entrez un nombre entre 1 et 3");
+// while(nombre < 1 || nombre > 3){
+//   nombre = prompt("saisie un nombre entre 1 et 3");
+// }
+
+//   console.log("bravo vous avez saisi " + nombre);
+
+//EXERCICE 6
+ let nombre = prompt("entrez un nombre entre 1 et 3");
+ while(nombre < 1 || nombre > 3){
+   nombre = prompt("saisie un nombre entre 1 et 3");
+ }
+
+   console.log("bravo vous avez saisi " + nombre);
 
 
 
